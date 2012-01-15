@@ -28,7 +28,7 @@ public class GameActivity extends Activity implements SensorEventListener,
 
 	FrameLayout gameMenu;
 
-	static final int PLAYGROUND_ID = 9452343;
+	static final int PLAYGROUND_ID = 13352343;
 
 	@Override
 	public void onCreate(Bundle savedInstanceState) {
