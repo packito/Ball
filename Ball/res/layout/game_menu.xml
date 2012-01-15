@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/flGameMenu"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/paused_background"
+    android:visibility="visible" >
+<LinearLayout 
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_gravity="center"
+    android:padding="15dp"
+    android:orientation="vertical"
+    android:background="#ffff00">
+    
+    <Button
+        android:id="@+id/bResumeGame"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Resume game" />
+
+    <Button
+        android:id="@+id/bSettings"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Settings" />
+
+    <Button
+        android:id="@+id/bQuitGame"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Quit game" />
+</LinearLayout>
+
+</FrameLayout>
